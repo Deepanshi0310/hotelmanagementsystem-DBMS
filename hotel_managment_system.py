@@ -16,11 +16,11 @@ acc = c = st = na = 0
 
 print('''
                                                                                    *~*~*~*~*~*~*~*~*~*~*~*~*                                                                        
-                                                                                   *   HOTEL THE ROYALE    *
+                                                                                   *   HOTEL THE BLUE    *
                                                                                    *~*~*~*~*~*~*~*~*~*~*~*~*
                                                                                                                                                                                                                                             
                                                                                                                                                                                                                                             
-                                                                        ~*~*~*~*~*~  WELCOME TO THE ROYALE  ~*~*~*~*~*~ \n\n ''')
+                                                                        ~*~*~*~*~*~  WELCOME TO THE BLUE  ~*~*~*~*~*~ \n\n ''')
 
 print("DO YOU WANT TO CREATE A NEW ACCOUNT OR ALREADY HAVE AN ACCOUNT ?")
 
@@ -138,7 +138,7 @@ def log_in() :
             if na == 1 :
                   sign_up()
             if na == 2 :
-                   print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!!")
+                   print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!!")
                    sys.exit(0)
 
       if na != 1 :      
@@ -165,7 +165,7 @@ def log_in() :
                             if na == 1 :
                                    sign_up()
                             if na == 2 :
-                                   print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!!")
+                                   print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!!")
                                    sys.exit(0)
 
       if na != 1 :                 
@@ -192,7 +192,7 @@ def log_in() :
                     if na == 1 :
                            sign_up()
                     if na == 2 :
-                           print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!!")
+                           print("\nTHANK YOU FOR VISITING HOTEL THE BLUE!!!")
                            sys.exit(0)
               
              print("\nYOU HAVE BEEN LOGGED-IN !!!")
@@ -205,7 +205,7 @@ if acc == 2 :
        log_in()
 
 if acc == 3 :
-       print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!!")
+       print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!!")
        sys.exit(0)
 
 
@@ -487,7 +487,7 @@ while True :
                             cvv = int(input("\nEnter the CVV : "))
 
               else :
-                   print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!! YOU HAVE BEEN LOGGED-OUT !!! ")
+                   print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!! YOU HAVE BEEN LOGGED-OUT !!! ")
                    sys.exit(0)  
               
               
@@ -546,7 +546,7 @@ while True :
               if cnf == 2 :
                      cancel( j )
                      print("\nYOUR BOOKING HAS BEEN CANCELLED !!!")
-                     print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!! YOU HAVE BEEN LOGGED-OUT !!! ")
+                     print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!! YOU HAVE BEEN LOGGED-OUT !!! ")
                      sys.exit(0)
        
                   
@@ -689,7 +689,7 @@ while True :
                   print("\nYOUR PASSWORD HAS BEEN CHANGED SUCCESSFULLY !!!")
 
              else :
-                  print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!! YOU HAVE BEEN LOGGED-OUT !!!")
+                  print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!! YOU HAVE BEEN LOGGED-OUT !!!")
                   sys.exit(0)
 
        def delete_account() :
@@ -728,5 +728,5 @@ while True :
               break
             
        if acc == 6 :
-            print("\nTHANK YOU FOR VISITING HOTEL THE ROYALE !!! YOU HAVE BEEN LOGGED-OUT !!!")
+            print("\nTHANK YOU FOR VISITING HOTEL THE BLUE !!! YOU HAVE BEEN LOGGED-OUT !!!")
             sys.exit(0)
